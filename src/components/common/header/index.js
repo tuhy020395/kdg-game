@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import 'antd/dist/antd.css';
-import { Menu } from 'antd';
+import { Button, Menu } from 'antd';
+import './index.css'
 
 function Header() {
   const [current, setCurrent] = useState('mail')
@@ -10,10 +11,12 @@ function Header() {
     setCurrent({ current: e.key });
   };
   return (
-    <div style={{backgroundColor:'black'}}>
-      <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
-      <Menu.Item key="logo" >
-        <img src='../images/logo.png' />
+    <div>
+      <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal"
+         style={{background: '#382f2c'}}
+      >
+      <Menu.Item key="logo" style={{marginRight: '40px'}} >
+        <img src='../images/logo.png' alt='logo' />
       </Menu.Item>
       <Menu.Item key="project" >
         Project
@@ -25,7 +28,10 @@ function Header() {
         Staking
       </Menu.Item>
       <Menu.Item key="buyKDG" >
-        BuyKDG
+        Buy KDG
+      </Menu.Item>
+      <Menu.Item key="connect" style={{marginInlineStart: 'auto'}} >
+        <Button className='btnConnect' >Connect Wallet</Button>     
       </Menu.Item>
     </Menu>
     </div>

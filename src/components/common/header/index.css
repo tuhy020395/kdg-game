@@ -1,14 +1,17 @@
 .ant-menu-horizontal {
-    height: 70px;
+    height: 60px;
     border: 0;
-    border-bottom: 1px solid #f0f0f0;
+    /* border-bottom: 1px solid #f0f0f0; */
     box-shadow: none;
     align-items: center;
     line-height: 46px;
+    color: #ffff;
 }
+
 .btnConnect{
     color: #000000;
     background-color: #FFD60A;
     width: 181px;
     height: 40px;
+    border-color:#FFD60A ;
 }
