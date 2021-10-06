@@ -5,7 +5,7 @@
 }
 .textBanner{
     width: 780px;
-    
+    margin-top: 94px;
     height: 112px;
     background-image: url('../../../public/images/lable.png');   
 }
@@ -16,20 +16,22 @@
     padding-top: 281px;
 }
 .text{
-    font-family: Montserrat;
+    text-align: start;
+    font-family: auto;
     font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 134.09%;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 136.09%;
     padding-top: 40px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
+    padding-left: 40px;
 }
 .btnBanner{
     background: none;
     border: none;
-    padding-top: 410px;
+    padding-top: 220px;
 }
-.btnBanner:hover{
+.btn:hover{
     cursor: pointer;
 }
