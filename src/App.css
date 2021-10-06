@@ -1,4 +1,9 @@
 .App {
   text-align: center;
 }
-
+.App {
+  background-image: url(public/images/bg-top.png);
+  background-color: #000;
+  width: 100%;
+  height: 692px;
+}
