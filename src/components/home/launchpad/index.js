@@ -18,59 +18,48 @@ function LaunchPad() {
 
             </div>
             <div className='listLP' >
-
                 <Row justify="center">
-                
-                    <div className='itemLP'>                   
-                        <Col span={8}>
-                            
-                                <Card
-                                    style={{ width: 300, paddingTop: '10px', paddingLeft: '10px', paddingRight: '10px' }}
-                                    cover={
-                                        <img
-                                            alt="example"
-                                            src="../images/img-lp1.png"
-                                        />
-                                    }
-
-                                >
-                                    <div className='status'>
-                                    <p className='status-text'>Public</p>
-                                    </div>
-                                    
-                                    <div className='nameLP'>
-                                        <p className='textNameLP'>MU Kingdom Mobie</p>
-                                        <div className='imgLP'>
-                                            <img src='../images/icon4.png' alt='icon' />
-                                        </div>
-
-                                    </div>
-                                    <div>
-                                        <div className='totalRate'>
-                                            <p className='totalText'>Total rate</p>
-                                            <p className='totalPrice'>100.000$</p>
-                                        </div>
-                                        <div className='totalRate'>
-                                            <p className='totalText'>Rate</p>
-                                            <p className='totalPrice'>1 MECH = 0.04 BUSD</p>
-                                        </div>
-                                        <div className='totalRate'>
-                                            <p className='totalText'>Supported</p>
-                                            <p className='totalPrice'>BUSD</p>
-                                        </div>
-                                        <div style={{ paddingTop: '5px' }}>
-                                            <Button className='btnItem' >TBA</Button>
-                                        </div>
-                                    </div>
-                                </Card>
-                           
-
-                        </Col>
-                        
-                    </div>
-                    
                     <div className='itemLP'>
-                        
+                        <Col span={8}>
+                            <Card
+                                style={{ width: 300, paddingTop: '10px', paddingLeft: '10px', paddingRight: '10px' }}
+                                cover={
+                                    <img
+                                        alt="example"
+                                        src="../images/img-lp1.png"
+                                    />
+                                }
+                            >
+                                <div className='status'>
+                                    <p className='status-text'>Public</p>
+                                </div>
+                                <div className='nameLP'>
+                                    <p className='textNameLP'>MU Kingdom Mobie</p>
+                                    <div className='imgLP'>
+                                        <img src='../images/icon4.png' alt='icon' />
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className='totalRate'>
+                                        <p className='totalText'>Total rate</p>
+                                        <p className='totalPrice'>100.000$</p>
+                                    </div>
+                                    <div className='totalRate'>
+                                        <p className='totalText'>Rate</p>
+                                        <p className='totalPrice'>1 MECH = 0.04 BUSD</p>
+                                    </div>
+                                    <div className='totalRate'>
+                                        <p className='totalText'>Supported</p>
+                                        <p className='totalPrice'>BUSD</p>
+                                    </div>
+                                    <div style={{ paddingTop: '5px' }}>
+                                        <Button className='btnItem' >TBA</Button>
+                                    </div>
+                                </div>
+                            </Card>
+                        </Col>
+                    </div>
+                    <div className='itemLP'>
                         <Col span={8}>
                             <Card
                                 style={{ width: 300, paddingTop: '10px', paddingLeft: '10px', paddingRight: '10px' }}
@@ -84,7 +73,7 @@ function LaunchPad() {
                             >
                                 <div className='status'>
                                     <p className='status-text'>Public</p>
-                                    </div>
+                                </div>
                                 <div className='nameLP'>
                                     <p className='textNameLP'>MU Kingdom Mobie</p>
                                     <div className='imgLP'>
@@ -127,7 +116,7 @@ function LaunchPad() {
                             >
                                 <div className='status'>
                                     <p className='status-text'>Public</p>
-                                    </div>
+                                </div>
                                 <div className='nameLP'>
                                     <p className='textNameLP'>MU Kingdom Mobie</p>
                                     <div className='imgLP'>
@@ -156,9 +145,7 @@ function LaunchPad() {
                         </Col>
 
                     </div>
-
                 </Row>
-
             </div>
             <div>
                 <Button className='btnJoinNow'>

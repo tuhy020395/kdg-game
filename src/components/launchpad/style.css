@@ -1,0 +1,222 @@
+.bg-top{
+    height: 264px;
+    background: linear-gradient(5.09deg, #131211 3.32%, rgba(18, 17, 17, 0) 98.97%);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #000000;
+}
+.title{
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.next {
+    padding-bottom: 50px;
+}
+.complete {
+    padding-bottom: 50px;
+}
+.comming {
+    padding-bottom: 50px;
+}
+.complete-item{
+    height: 97px;
+    background-color: #1B1B1C;
+    border-radius: 2px;
+    display: flex;
+}
+.complete-process{
+    width: 30%;
+}
+.complete-total{
+    width: 20%;
+}
+.complete-parti{
+    width: 15%;
+}
+.complete-name{
+    width: 25%;
+}
+.complete-logo{
+    padding-left: 13px;
+    padding-top: 19px;
+    width: 10%;
+}
+.complete-name-top {
+    padding-top: 14px;
+    display: flex;
+}
+.complete-name-bot{
+    text-align: start;
+    padding-left: 17px;
+}
+.complete-total{
+    text-align: start;
+    padding-top: 14px;
+}
+.complete-parti{
+    text-align: start;
+    padding-top: 14px;
+}
+.value-process{
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 132%;
+    /* identical to box height, or 16px */
+
+    text-align: right;
+    letter-spacing: 0.025em;
+
+    color: #9F9F9F;
+}
+.end-process{
+    padding-right: 18px;
+    text-align: end;
+    width: 80%;
+}
+.first-process{
+    text-align: start;
+    width: 20%;
+}
+.complete-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 132%;
+    /* or 18px */
+    letter-spacing: 0.025em;
+    color: #9F9F9F;
+}
+.process-top{
+    padding-top: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 132%;
+    /* or 18px */
+    letter-spacing: 0.025em;
+    color: #9F9F9F;
+}
+.complete-value{
+    padding-top: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 132%;
+    /* or 21px */
+
+    letter-spacing: 0.025em;
+
+    color: #FFFFFF;
+}
+.complete-name-bot{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+}
+.complete-clam{
+    width: 60%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.025em;
+    color: #FAC800;
+}
+.complete-stt{
+    margin-left: 5px;
+    width: 40%;
+    color: #ffff;
+    background: rgba(39, 39, 39, 1);
+}
+.comp-item{
+    padding-bottom: 20px;
+}
+.complete-name-top-mb {
+    display: flex;
+}
+.complete-clam-mb{
+    padding-top: 3px;
+    width: 60%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.025em;
+    color: #FAC800;
+}
+.complete-stt-mb{
+    margin-left: 5px;
+    width: 40%;
+    color: #ffff;
+    background: rgba(39, 39, 39, 1);
+}
+.complete-name-mb {
+    width: 100%;
+}
+.process-top-mb {
+    text-align: start;
+}
+.value-process-mb {
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 132%;
+    /* identical to box height, or 16px */
+
+    text-align: right;
+    letter-spacing: 0.025em;
+
+    color: #9F9F9F;
+}
+.end-process-mb {
+    text-align: end;
+    width: 80%;
+}
+.first-process-mb {
+    text-align: start;
+    width: 20%;
+}
+.complete-process-mb {
+    padding-top: 10px;
+}
+.complete-name-bot-mb {
+    text-align: left;
+    padding-left: 8px;
+}
+.complete-name-bot-mb{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+
+    color: #FFFFFF;
+}
