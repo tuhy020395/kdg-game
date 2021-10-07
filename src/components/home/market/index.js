@@ -28,7 +28,7 @@ function Market() {
                         // <Item key={item}>
                             
                         // </Item>
-                        <div className='items'>
+                        <div  className='items'>
                         <div className='slideImg'>
                             <img src='../images/image-slide.png' alt='' />
                         </div>

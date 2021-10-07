@@ -12,8 +12,8 @@ function LaunchPad() {
   const ComplatedItem = () => {
     if (!isMobile) {
       return (
-        itemsComplated.map((item) => (
-          <div className='comp-item'>
+        itemsComplated.map((item, key) => (
+          <div key={item} className='comp-item'>
             <Row justify="center">
               <Col span={18}>
                 <div className='complete-item'>
@@ -60,8 +60,8 @@ function LaunchPad() {
       )
     }
     return (
-      itemsComplated.map((item) => (
-        <Row justify="center">
+      itemsComplated.map((item, key) => (
+        <Row key={item} justify="center">
           <div className='itemLP'>
             <Col span={8}>
               <Card style={{ width: 300 }}>
@@ -113,8 +113,8 @@ function LaunchPad() {
 
   const NextItem = () => {
     return (
-      itemsNext.map((item) => (
-        <div className='itemLP'>
+      itemsNext.map((item, key) => (
+        <div key={item} className='itemLP'>
           <Col span={8}>
             <Card
               style={{ width: 300, paddingTop: '10px', paddingLeft: '10px', paddingRight: '10px' }}
@@ -165,7 +165,7 @@ function LaunchPad() {
   const CommingItem = () => {
     return (
       itemsComming.map((item) => (
-        <div className='itemLP'>
+        <div key={item} className='itemLP'>
           <Col span={8}>
             <Card
               style={{ width: 300, paddingTop: '10px', paddingLeft: '10px', paddingRight: '10px' }}
