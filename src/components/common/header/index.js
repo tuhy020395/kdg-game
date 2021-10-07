@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import 'antd/dist/antd.css';
-import { Button, Menu } from 'antd';
+import { Button, Menu, Layout } from 'antd';
 import './index.css'
 
-function Header() {
+const { Header, Content, Footer } = Layout;
+
+function Headers() {
   const [current, setCurrent] = useState('mail')
   const { SubMenu } = Menu;
   const handleClick = e => {
@@ -40,4 +42,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Headers;
