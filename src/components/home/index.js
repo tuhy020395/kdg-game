@@ -1,14 +1,21 @@
-import React, { useState } from 'react'
+import React from 'react'
 import 'antd/dist/antd.css';
-import { Menu } from 'antd';
-import Banner from './banner';
+import HomeTop from './homeTop';
+import About from './about';
+import LaunchPad from './launchpad';
+import Market from './market';
+import Bottom from './bottom';
 
 function Content() {
 
   return (
 
    <div>
-     <Banner />
+     <HomeTop />
+     <About />
+     <LaunchPad />
+     <Market />
+     <Bottom />
    </div>
 
   );

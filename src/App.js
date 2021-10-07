@@ -1,18 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import { Layout, Menu, Breadcrumb } from 'antd';
 
 import Home from './components/home'
 import LaunchpadDetail from './components/LaunchpadDetail'
-import Header from './components/common/header';
-import Footer from './components/common/footer';
+import Headers from './components/common/header';
+import Footers from './components/common/footer';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      
+      <Headers />
+      
+      
       <Home />
-      <Footer />
+      <Footers />
     </div>
   );
 }
