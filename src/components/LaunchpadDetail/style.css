@@ -1,0 +1,206 @@
+.container {
+    width: 1050px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.main-top-detail {
+    margin-top: 55px;
+}
+.main-top-detail .main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.main-top-detail .main-title .box-img img {
+    display: block;
+}
+.main-top-detail .main-title .desc {
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 30px;
+}
+.main-middle-detail .list-three-item {
+    display: flex;
+    max-width: 570px;
+    margin: 0 auto;
+    padding: 15px 0;
+    background: #1B1B1C;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.main-middle-detail .list-three-item li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(3 / 9 * 100%);
+    color: #fff;
+    font-weight: 600;
+}
+.main-middle-detail .list-three-item li:nth-child(1) {
+    border-right: 1px solid #2D2D30;
+}
+.main-middle-detail .list-three-item li:nth-child(2) {
+    border-right: 1px solid #2D2D30;
+}
+.main-middle-detail .list-three-item li span {
+    margin-left: 5px;
+}
+.main-bottom-detail {
+    margin-bottom: 10px;
+}
+.btn-main {
+    background: #313131;
+    color: #B1B1B1;
+    font-size: 16px;
+    border: 0px solid transparent;
+    padding: 10px 30px;
+    line-height: 22.5px;
+    transition: 0.4s ease;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn-main:hover {
+    background: #F9C801;
+    color: #fff;
+}
+.box-dispash-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.box-dispash-item .item-info {
+    width: 50%;
+    height: auto;
+    padding: 10px;
+}
+.box-dispash-item .item-info .content-info {
+    background: #1B1B1C;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    height: 100%;
+}
+.box-dispash-item .item-info .content-info .title-info {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.box-dispash-item .item-info .content-info .step-pool .ant-steps-item-title {
+    color: #fff;
+    font-size: 14px;
+    padding-right: 0 !important;
+}
+.box-dispash-item .item-info .content-info .step-pool .ant-steps-item-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.box-dispash-item .item-info .content-info .step-pool .ant-steps-item-container {
+    padding-bottom: 35px;
+}
+.ant-steps-item-title::after {
+    display: none !important;
+}
+.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item {
+    padding-left: 0 !important;
+}
+.box-dispash-item .item-info .content-info .step-pool .ant-steps-item-wait .ant-steps-item-icon  {
+    background: #343437;
+    line-height: 28px;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+}
+.box-dispash-item .item-info .content-info .step-pool .ant-steps-item-wait .ant-steps-item-icon .ant-steps-icon {
+    color: #9F9F9F;
+}
+.box-dispash-item .item-info .content-info .step-pool .ant-steps-item-active .ant-steps-item-icon {
+    background: #F9C801;
+    border: 0px solid transparent;
+    line-height: 32px;
+    position: relative;
+    z-index: 1;
+}
+.box-dispash-item .item-info .content-info .step-pool .ant-steps-item-container:before {
+    content: '';
+    background: #343437;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    top: 13px;
+    left: 1px;
+    z-index: 0;
+}
+.box-dispash-item .item-info .content-info .step-pool {
+    margin-bottom: 25px;
+}
+.box-claim-token .time-claim {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    display: flex;
+    margin-left: -10px;
+}
+.box-claim-token .time-claim > div {
+    text-align: center;
+    padding: 0 10px;
+}
+.box-claim-token .time-claim > div > span {
+    font-size: 12px;
+    display: block;
+    color: #9F9F9F;
+}
+.swap-amount .text-top-amount {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.swap-amount .text-top-amount .text-left {
+    font-size: 14px;
+    color: #fff;
+}
+.swap-amount .text-top-amount .text-right {
+    font-size: 12px;
+    color: #9F9F9F;
+}
+.main-amount .desc-amount {
+    font-size: 30px;
+    color: #F9C801;
+}
+.swap-amount .text-bottom-progress .text-progress {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.progress-line {
+    position: relative;
+}
+.progress-line .ant-progress-text {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    margin-left: 0;
+    color: #fff;
+}
+.progress-line .balance-progess {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    color: #9F9F9F;
+}
+.progress-line .ant-progress-show-info .ant-progress-outer {
+    padding-right: 0;
+}
+.progress-line .ant-progress-bg {
+    background-color: #f9c801;
+    height: 4px !important;
+}
+.progress-line .vector-arrow {
+    position: absolute;
+    top: -2px;
+    right: -12px;
+}

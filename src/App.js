@@ -3,11 +3,11 @@ import './App.css';
 import { Layout, Menu, Breadcrumb } from 'antd';
 
 import Home from './components/home'
+import LaunchpadDetail from './components/LaunchpadDetail'
 import Headers from './components/common/header';
 import Footers from './components/common/footer';
 
 
-const { Header, Content, Footer } = Layout;
 
 function App() {
   return (
