@@ -7,8 +7,59 @@
 }
 .colum{
     margin-left: 6%;
+    margin-top: 30px;
 }
 .iconAbout{
     margin-left: 23px;
     text-align: start;
+}
+.about-title{
+    padding-top: 35px;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+@media (max-width: 414px) {
+    .about-title{
+        font-size: 26px;
+    }
+    .about-subtitle{
+        letter-spacing: 0.01em;
+    }
+    
+}
+.subIconAbout{
+    width: 70px;
+    height: 70px;
+}
+.about-title-1{
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 132%;
+    /* or 34px */
+
+    letter-spacing: 0.025em;
+
+    color: #FFFFFF;
+}
+.about-subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 132%;
+    /* or 21px */
+
+    text-align: center;
+    letter-spacing: 0.025em;
+
+    color: #FFFFFF;
 }

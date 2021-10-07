@@ -10,24 +10,24 @@ function Footers() {
     <>
       <Footer className='footer'>
         <div className='footer-top'>
-          <Row>
-            <Col span={12}>
-              <div style={{ textAlign: 'start' }}>
+          <Row justify="center">
+            <Col xs={{ span: 24 }} lg={{ span: 6 }}>
+              <div  style={{ textAlign: 'start' }}>
                 <img src='../images/logo.png' alt='logo' />
-                <div style={{ marginTop: '65px' }}>
-                  <a className='iconMedia1'>
+                <div className='footer-icon' >
+                  <a className='iconMedia1' href='/'>
                     <img src='../images/tele.png' alt='logo' />
                   </a>
-                  <a className='iconMedia'>
+                  <a className='iconMedia' href='/'>
                     <img src='../images/tw.png' alt='logo' />
                   </a>
-                  <a className='iconMedia'>
+                  <a className='iconMedia' href='/'>
                     <img src='../images/youtobe.png' alt='logo' />
                   </a>
-                  <a className='iconMedia'>
+                  <a className='iconMedia' href='/'>
                     <img src='../images/fb.png' alt='logo' />
                   </a>
-                  <a className='iconMedia'>
+                  <a className='iconMedia' href='/'>
                     <img src='../images/Vector.png' alt='logo' />
                   </a>
 
@@ -35,7 +35,7 @@ function Footers() {
 
               </div>
             </Col>
-            <Col span={4}>
+            <Col xs={{ span: 24 }} lg={{ span: 6 }}>
               <div className='footer-tab'>
                 <p className='footer-title'>
                   Features
@@ -45,7 +45,7 @@ function Footers() {
                 <p className='footer-content'><a className='footer-link' href='/'>KingdomStarter</a></p>
               </div>
             </Col>
-            <Col span={4}>
+            <Col xs={{ span: 24 }} lg={{ span: 6 }}>
               <div className='footer-tab'>
                 <p className='footer-title'>Project</p>
                 <p className='footer-content'><a className='footer-link' href='/'>Roadmap</a></p>
@@ -53,13 +53,14 @@ function Footers() {
                 <p className='footer-content'><a className='footer-link' href='/'>Documents</a></p>
               </div>
             </Col>
-            <Col span={4}>
+            <Col xs={{ span: 24 }} lg={{ span: 6 }}>
               <div className='footer-tab'>
                 <p className='footer-title'>Information</p>
                 <p className='footer-content'><a className='footer-link' href='/'>Official Token</a></p>
                 
               </div>
             </Col>
+           
           </Row>
         </div>
 

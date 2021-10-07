@@ -20,7 +20,7 @@ function Market() {
     return (
         <div className='market'>
             <div>
-                <p>GAME MARKET</p>
+                <p className='market-title'>GAME MARKET</p>
             </div>
             <div className='slideMarket'>
                 <Carousel breakPoints={breakPoints}>

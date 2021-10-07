@@ -1,5 +1,6 @@
 .launchpad{
     padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #131418;
     color: #ffff;
 }
@@ -29,6 +30,8 @@
     display: flex;
 }
 .totalText{
+    text-align: start;
+    width: 25%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
@@ -41,6 +44,8 @@
     color: #9F9F9F;
 }
 .textNameLP{
+    width: 90%;
+    text-align: start;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -51,6 +56,7 @@
     color: #FFFFFF;
 }
 .totalPrice{
+    width: 75%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -73,6 +79,12 @@
     line-height: 46px;
     letter-spacing: 0.025em;
     text-transform: uppercase;
+}
+@media (max-width: 414px) {
+    .titleLaunch-text{
+        font-size: 26px;
+    }
+    
 }
 .titleLaunch-content{
     font-family: 'Montserrat';
@@ -100,4 +112,30 @@
     letter-spacing: 0.01em;
 
     color: #000000;
+}
+.imgLP{
+    width: 10%;
+}
+.status{
+    margin-top: -198px;
+    position: absolute;
+    background-color: #FAC800;
+    width: 92px;
+    height: 25px;
+    margin-left: -25px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.status-text{
+    padding-top: 3.5px;
 }

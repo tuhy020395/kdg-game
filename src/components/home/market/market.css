@@ -30,3 +30,20 @@
 .rec-carousel-item-visible {
     padding: 10px;
 }
+.market-title{
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+@media (max-width: 414px) {
+    .market-title{
+        font-size: 26px;
+    }
+    
+}

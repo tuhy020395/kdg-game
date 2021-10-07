@@ -37,6 +37,7 @@
     color: #9F9F9F;
 }
 .footer-tab{
+    width: 60%;
     padding-right: 15px;
 }
 .footer-link{
@@ -58,3 +59,27 @@
 .footer-coppy-text{
     padding-top: 17px;
 }
+.footer-icon{
+    margin-top: 65px;
+}
+@media (max-width: 414px) {
+    .footer-icon{
+        margin-top: 25px;
+    }
+    .footer-tab {
+        width: 100%;
+        padding-right: 100px;
+        padding-top: 30px;
+        text-align: start;
+    }
+    .footer-title {
+        padding-left: 12px;
+    }
+    .footer-content {
+        padding-left: 12px;
+        text-align: start;
+    }
+    .footer-coppy-text {
+        padding-top: 9px;
+    }
+  }
