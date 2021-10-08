@@ -23,9 +23,6 @@ function Market() {
             <div className='slideMarket'>
                 <Carousel breakPoints={breakPoints}>
                     {items.map((item) => (
-                        // <Item key={item}>
-                            
-                        // </Item>
                         <div  className='items'>
                         <div className='slideImg'>
                             <img src='../images/image-slide.png' alt='' />

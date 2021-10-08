@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Staking from '../../Staking';
+import Staking from '../../staking';
 import LaunchpadDetail from '../../LaunchpadDetail';
 import Home from '../../home';
 import Launchpad from '../../launchpad';
@@ -15,7 +15,7 @@ import { Button, Menu, Modal } from 'antd';
 import './index.css'
 
 function Headers() {
-  const [current, setCurrent] = useState('mail')
+  const [current, setCurrent] = useState('home')
   const handleClick = e => {
     console.log('click ', e);
     setCurrent({ current: e.key });
@@ -44,9 +44,9 @@ function Headers() {
           </Menu.Item>
 
           <Menu.Item key="home" >
-            <Link to="/home">Home</Link>
+            <Link  to="/home">Home</Link>
           </Menu.Item>
-
+          
           <Menu.Item key="launchpad" >
             <Link to="/launchpad">LaunchPad</Link>
           </Menu.Item>
@@ -64,7 +64,7 @@ function Headers() {
           </Menu.Item>
         </Menu>
         <Switch>
-          <Route path="/home">
+          <Route path='/home'>
             <Home />
           </Route>
           <Route path="/launchpad">

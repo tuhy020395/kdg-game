@@ -53,6 +53,12 @@
     .market-title{
         font-size: 26px;
     }
+    .rec-arrow-left{
+        left: 45.5% !important;
+    }
+    .rec-arrow-right{
+        left: 58.5% !important;
+    }
     
 }
 .rec-dot_active {

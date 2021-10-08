@@ -39,18 +39,18 @@ function LaunchPad() {
                   </div>
                   <div className='complete-process'>
                     <p className='process-top'>Progcess
-                      <Progress
-                        strokeColor={{
-                          '0%': '#FAC800',
-                          '100%': '#FAC800',
-                        }}
-                        percent={100} />
-                      <div className='value-process' >
-                        <p className='first-process' >100%</p>
-                        <p className='end-process'>50/100 KDG</p>
+                    <div className="progress-line" style={{width:'92%'}}>
+                      <Progress percent={100} status="active" />
+                      <div>
+                      <span className="balance-progess">2,913,993.57  / 2,914,285 KDG</span>
+                      <span className="balance-full">(100%)</span>
                       </div>
-                    </p>
-
+                      
+                      <div className="vector-arrow">
+                        <img src='../images/vector-arrow.png' alt="" />
+                      </div>
+                    </div>                 
+                    </p>                   
                   </div>
                 </div>
               </Col>
@@ -100,6 +100,9 @@ function LaunchPad() {
                         <p className='first-process-mb' >(100%)</p>
                         <p className='end-process-mb'>50/100 KDG</p>
                       </div>
+                      <div className="vector-arrow-mb">
+                        <img src='../images/vector-arrow.png' alt="" />
+                      </div>
                     </p>
                   </div>
                 </div>
@@ -120,10 +123,10 @@ function LaunchPad() {
               style={{ width: 300, paddingTop: '10px', paddingLeft: '10px', paddingRight: '10px' }}
               cover={
                 <a href="/launchpaddetail">
-                    <img
-                      alt="example"
-                      src="../images/img-lp1.png"
-                    />
+                  <img
+                    alt="example"
+                    src="../images/img-lp1.png"
+                  />
                 </a>
               }
             >
@@ -149,7 +152,7 @@ function LaunchPad() {
                   <p className='totalText'>Supported</p>
                   <p className='totalPrice'>BUSD</p>
                 </div>
-                <div style={{ paddingTop: '5px', display:'flex' }}>
+                <div style={{ paddingTop: '5px', display: 'flex' }}>
                   <Button className='btnItem-wl' >Whitelist end in
                     <img src='../images/wl-icon.png' alt='icon' />
                     <p className='countDown'>03 days</p>
@@ -173,10 +176,10 @@ function LaunchPad() {
               style={{ width: 300, paddingTop: '10px', paddingLeft: '10px', paddingRight: '10px' }}
               cover={
                 <a href="/launchpaddetail">
-                    <img
-                      alt="example"
-                      src="../images/img-lp1.png"
-                    />
+                  <img
+                    alt="example"
+                    src="../images/img-lp1.png"
+                  />
                 </a>
               }
             >

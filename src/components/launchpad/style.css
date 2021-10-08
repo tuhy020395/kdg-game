@@ -257,7 +257,6 @@
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.025em;
-
     color: #FFFFFF;
 }
 .btnItem-wl{
@@ -285,4 +284,21 @@
         position: relative;
         height: 150px;
     }
+}
+.ant-progress-text {
+    display: none;
+}
+.vector-arrow-mb {
+    position: absolute;
+    top: 217px;
+    right: 32px;
+}
+.ant-progress-inner {
+    height: 4px;
+}
+.balance-full {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    color: #9F9F9F;
 }
