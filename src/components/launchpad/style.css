@@ -18,6 +18,11 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+@media (max-width: 414px) {
+    .title{
+        font-size: 26px;
+    }
+}
 .next {
     padding-bottom: 50px;
 }
@@ -54,10 +59,7 @@
     padding-top: 14px;
     display: flex;
 }
-.complete-name-bot{
-    text-align: start;
-    padding-left: 17px;
-}
+
 .complete-total{
     text-align: start;
     padding-top: 14px;
@@ -124,6 +126,7 @@
 
     color: #FFFFFF;
 }
+
 .complete-name-bot{
     font-family: 'Montserrat';
     font-style: normal;
@@ -132,6 +135,7 @@
     line-height: 24px;
     letter-spacing: 0.025em;
     color: #FFFFFF;
+    text-align: start;
 }
 .complete-clam{
     width: 60%;

@@ -77,3 +77,6 @@
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after{
     border-bottom: 2px solid #F9C801 !important;
 }
+.logoMenu{
+    margin-right: 40px;
+}

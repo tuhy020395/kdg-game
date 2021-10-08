@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
-import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 import 'antd/dist/antd.css';
-import { Button, Menu, Layout, Modal } from 'antd';
+import { Button, Menu, Modal } from 'antd';
 
 import './index.css'
-
 
 function Headers() {
   const [current, setCurrent] = useState('mail')
@@ -26,12 +24,11 @@ function Headers() {
     setIsModalVisible(false);
   };
   return (
-
     <div>
       <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal"
         style={{ background: '#382f2c' }}
       >
-        <Menu.Item key="logo" style={{ marginRight: '40px' }} >
+        <Menu.Item key="logo" className='logoMenu' >
           <img src='../images/logo.png' alt='logo' />
         </Menu.Item>
 
@@ -51,13 +48,10 @@ function Headers() {
           Buy KDG
         </Menu.Item>
 
-
         <Menu.Item key="connect" style={{ marginInlineStart: 'auto' }} >
           <Button className='btnConnect' onClick={showModal} >Connect Wallet</Button>
         </Menu.Item>
       </Menu>
-
-
 
       <Modal title="CONNECT WALLET"
         visible={isModalVisible}
@@ -71,11 +65,7 @@ function Headers() {
           <p className='connect-text'>Content</p>
         </div>
       </Modal>
-
     </div>
-
-
-
   );
 }
 
