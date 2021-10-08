@@ -31,6 +31,9 @@
     letter-spacing: 0.025em;
     text-transform: uppercase;
     color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 @media (max-width: 414px) {
     .title{
@@ -84,7 +87,9 @@
 }
 .value-process{
     display: flex;
-    font-family: 'Montserrat';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -106,7 +111,9 @@
     width: 20%;
 }
 .complete-title{
-    font-family: 'Montserrat';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -118,7 +125,9 @@
 .process-top{
     text-align: start;
     padding-top: 14px;
-    font-family: 'Montserrat';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -129,7 +138,9 @@
 }
 .complete-value{
     padding-top: 5px;
-    font-family: 'Montserrat';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -142,7 +153,9 @@
 }
 
 .complete-name-bot{
-    font-family: 'Montserrat';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -153,7 +166,9 @@
 }
 .complete-clam{
     width: 60%;
-    font-family: 'Montserrat';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -178,7 +193,9 @@
 .complete-clam-mb{
     padding-top: 3px;
     width: 60%;
-    font-family: 'Montserrat';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -202,7 +219,9 @@
 }
 .value-process-mb {
     display: flex;
-    font-family: 'Montserrat';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -230,7 +249,9 @@
     padding-left: 8px;
 }
 .complete-name-bot-mb{
-    font-family: 'Montserrat';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
