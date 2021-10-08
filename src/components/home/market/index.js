@@ -8,8 +8,6 @@ function Market() {
 
     const [items, setItems] = useState([1, 2, 3, 4, 5, 6, 7, 8]);
 
-
-
     const breakPoints = [
         { width: 1, itemsToShow: 1 },
         { width: 550, itemsToShow: 2, itemsToScroll: 2 },

@@ -24,10 +24,12 @@ function LaunchPad() {
                             <Card
                                 style={{ width: 300, paddingTop: '10px', paddingLeft: '10px', paddingRight: '10px' }}
                                 cover={
-                                    <img
+                                    <a href="/launchpaddetail">
+                                        <img
                                         alt="example"
                                         src="../images/img-lp1.png"
-                                    />
+                                        />
+                                    </a>
                                 }
                             >
                                 <div className='status'>
@@ -64,10 +66,12 @@ function LaunchPad() {
                             <Card
                                 style={{ width: 300, paddingTop: '10px', paddingLeft: '10px', paddingRight: '10px' }}
                                 cover={
-                                    <img
+                                    <a href="/launchpaddetail">
+                                        <img
                                         alt="example"
                                         src="../images/img-lp2.png"
-                                    />
+                                        />
+                                    </a>
                                 }
 
                             >
@@ -107,10 +111,12 @@ function LaunchPad() {
                             <Card
                                 style={{ width: 300, paddingTop: '10px', paddingLeft: '10px', paddingRight: '10px' }}
                                 cover={
-                                    <img
+                                    <a href="/launchpaddetail">
+                                        <img
                                         alt="example"
                                         src="../images/img-lp3.png"
-                                    />
+                                        />
+                                    </a>
                                 }
 
                             >

@@ -9,31 +9,30 @@
     background-color: #131418;
 }
 .footer-title {
-    height: 26px;
     background-color: #252729;
-
-    font-family: 'Montserrat';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height */
-
+    padding: 10px 20px;
     letter-spacing: 0.025em;
-
     color: #FFFFFF;
+    text-align: left;
 }
 .footer-content{
-    text-align: center;
-    font-family: 'Montserrat';
+    text-align: left;
+    padding: 5px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
-
     letter-spacing: 0.025em;
-
     color: #9F9F9F;
 }
 .footer-tab{
@@ -43,17 +42,21 @@
 .footer-link{
     color: #9F9F9F;
 }
+.footer-link:hover {
+    color: #FFD60A;
+}
 .footer-coppy{
     background-color: #000000;
     height: 54px;
-    font-family: 'Lato';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.025em;
-
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     color: #9F9F9F;
 }
 .footer-coppy-text{

@@ -119,10 +119,12 @@ function LaunchPad() {
             <Card
               style={{ width: 300, paddingTop: '10px', paddingLeft: '10px', paddingRight: '10px' }}
               cover={
-                <img
-                  alt="example"
-                  src="../images/img-lp1.png"
-                />
+                <a href="/launchpaddetail">
+                    <img
+                      alt="example"
+                      src="../images/img-lp1.png"
+                    />
+                </a>
               }
             >
               <div className='status'>
@@ -170,10 +172,12 @@ function LaunchPad() {
             <Card
               style={{ width: 300, paddingTop: '10px', paddingLeft: '10px', paddingRight: '10px' }}
               cover={
-                <img
-                  alt="example"
-                  src="../images/img-lp1.png"
-                />
+                <a href="/launchpaddetail">
+                    <img
+                      alt="example"
+                      src="../images/img-lp1.png"
+                    />
+                </a>
               }
             >
               <div className='status'>

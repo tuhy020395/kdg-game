@@ -4,6 +4,24 @@
 }
 .contentAbout{
     text-align: start;
+    padding-left: 40px;
+}
+.contentAbout li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    list-style-type: none;
+    margin-bottom: 10px;
+    position: relative;
+}
+.contentAbout li:before {
+    content: '';
+    background: #FAC800;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: -15px;
+    top: 9px;
 }
 .colum{
     margin-left: 6%;
@@ -23,6 +41,9 @@
     letter-spacing: 0.025em;
     text-transform: uppercase;
     color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 
 }
 @media (max-width: 414px) {
@@ -44,11 +65,11 @@
     font-weight: normal;
     font-size: 26px;
     line-height: 132%;
-    /* or 34px */
-
     letter-spacing: 0.025em;
-
     color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 .about-subtitle{
     font-family: 'Montserrat';
@@ -56,10 +77,10 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 132%;
-    /* or 21px */
-
     text-align: center;
     letter-spacing: 0.025em;
-
     color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
