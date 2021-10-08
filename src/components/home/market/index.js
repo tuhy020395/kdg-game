@@ -13,14 +13,14 @@ function Market() {
     const breakPoints = [
         { width: 1, itemsToShow: 1 },
         { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-        { width: 768, itemsToShow: 3 },
-        { width: 1200, itemsToShow: 4 }
+        { width: 768, itemsToShow: 3,itemsToScroll: 2 },
+        { width: 1200, itemsToShow: 4,itemsToScroll: 2 }
     ];
 
     return (
         <div className='market'>
             <div>
-                <p>GAME MARKET</p>
+                <p className='market-title'>GAME MARKET</p>
             </div>
             <div className='slideMarket'>
                 <Carousel breakPoints={breakPoints}>
@@ -28,7 +28,7 @@ function Market() {
                         // <Item key={item}>
                             
                         // </Item>
-                        <div className='items'>
+                        <div  className='items'>
                         <div className='slideImg'>
                             <img src='../images/image-slide.png' alt='' />
                         </div>

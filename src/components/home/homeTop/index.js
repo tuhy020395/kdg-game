@@ -7,7 +7,7 @@ function HomeTop() {
 
         <div className='banner'>
             <div className='imgBanner' >
-                <img src='../images/textBanner.png' alt='' />
+                <img className='bannerTop' src='../images/textBanner.png' alt='' />
                 
 
             </div>

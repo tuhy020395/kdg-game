@@ -8,20 +8,20 @@ function About() {
     return (
         <div className='about'>
             <div class='titleAbout'>
-                <Row>
-                    <Col span={12} offset={6}>
-                        <h2 style={{ color: '#ffff', paddingTop: '35px' }}>WHY JOIN WITH US?</h2>
-                        <p>The boom in blockchain gaming was inevitable nowadays. Kingdom Game Hub provides a selection of the industry’s most creative playgroud for game project owner, investors or traders and gamers.</p>
+                <Row justify="center">
+                    <Col xs={{ span: 24 }} lg={{ span: 12 }}>
+                        <h2 className='about-title' >WHY JOIN WITH US?</h2>
+                        <p className='about-subtitle'>The boom in blockchain gaming was inevitable nowadays. Kingdom Game Hub provides a selection of the industry’s most creative playgroud for game project owner, investors or traders and gamers.</p>
                     </Col>
                 </Row>
 
             </div>
             <div className='colum' >
                 <Row>
-                    <Col span={8}>
+                    <Col xs={{ span: 24 }} lg={{ span: 8 }}>
                         <div className='iconAbout'>
-                            <img src='../images/icon1.png' alt='icon' />
-                            <p>Game Projects</p>
+                            <img className='subIconAbout' src='../images/icon1.png' alt='icon' />
+                            <p className='about-title-1'>Game Projects</p>
                         </div>
                         <div>
                             <ul className='contentAbout'>
@@ -33,10 +33,10 @@ function About() {
                             </ul>
                         </div>
                     </Col>
-                    <Col span={8}>
+                    <Col xs={{ span: 24 }} lg={{ span: 8 }}>
                         <div className='iconAbout'>
-                            <img src='../images/icon2.png' alt='icon' />
-                            <p>Game Investor</p>
+                            <img className='subIconAbout' src='../images/icon2.png' alt='icon' />
+                            <p className='about-title-1'>Game Investor</p>
                         </div>
                         <div>
                             <ul className='contentAbout'>
@@ -48,10 +48,10 @@ function About() {
                             </ul>
                         </div>
                     </Col>
-                    <Col span={8}>
+                    <Col xs={{ span: 24 }} lg={{ span: 8 }}>
                         <div className='iconAbout'>
-                            <img src='../images/icon3.png' alt='icon' />
-                            <p>Game Player</p>
+                            <img className='subIconAbout' src='../images/icon3.png' alt='icon' />
+                            <p className='about-title-1'>Game Player</p>
                         </div>
                         <div>
                             <ul className='contentAbout'>

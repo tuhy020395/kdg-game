@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-import { Layout, Menu, Breadcrumb } from 'antd';
-
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import React from 'react' 
+import 'antd/dist/antd.css';
 import Home from './components/home'
 import LaunchpadDetail from './components/LaunchpadDetail'
+import LaunchPad from './components/launchpad'
 import Staking from './components/Staking'
 import Headers from './components/common/header';
 import Footers from './components/common/footer';
 
-
-const { Header, Content, Footer } = Layout;
-
 function App() {
   return (
-    <div className="App">  
-      <Headers />
-      <Home />
-      <Footers />
-    </div>
+    <Router>
+      <div className="App">
+        <Headers />
+        <Home />
+        <Footers />
+      </div>
+    </Router>
   );
 }
 

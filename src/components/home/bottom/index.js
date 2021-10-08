@@ -9,12 +9,15 @@ function Bottom() {
     return (
 
         <div className='bottom'>
-            <div style={{paddingTop:'100px'}}>
+            <div className='bottomContent'>
                 <div className='bottomText'>Let's start your journey with KingdomStarter!</div>
+                <div>
                 <Button className='btnJoinNowBottom'>
                     Join now
                     <ArrowRightOutlined />
                 </Button>
+                </div>
+                
             </div>
 
         </div>
