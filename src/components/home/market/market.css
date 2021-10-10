@@ -118,3 +118,11 @@
 .rec-pagination {
     display: none !important;
 }
+@media (max-width: 768px) {
+    .rec.rec-swipable {
+        margin-left: 0 !important;
+    }
+    .rec-carousel-item-visible {
+        padding: 0px;
+    }
+}

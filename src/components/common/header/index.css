@@ -33,7 +33,8 @@
     color: #FFD60A;
     word-wrap: break-word;
 
-    font-family: 'Montserrat';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',;
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
@@ -44,7 +45,8 @@
     text-transform: uppercase;
 }
 .learnMore{
-    font-family: 'Montserrat';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -109,4 +111,102 @@
 }
 .ant-menu-horizontal > .ant-menu-item a:hover {
     color: #FFD60A;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after {
+    border-bottom: 2px solid #FFD60A;
+}
+.hide-menu {
+    display: none;
+}
+.show-mobile {
+    display: block;
+}
+.header-mobile {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(27 27 28) 0%, rgb(255 214 10 / 18%) 86%);
+    position: relative;
+    z-index: 1001;
+}
+.header-mobile .ant-btn-primary {
+    background: transparent;
+    border: 0px solid transparent;
+    font-size: 18px;
+}
+.header-mobile .ant-btn-primary:hover, .header-mobile .ant-btn-primary:focus {
+    background: transparent;
+    border: 0px solid transparent;
+}
+.header-mobile .ant-btn {
+    font-size: 20px;
+    height: auto;
+    padding-right: 0;
+}
+.menu-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 998;
+}
+.header-mobile .header-right {
+    position: relative;
+    z-index: 999;
+}
+.menu-mobile .ant-menu {
+    height: 100vh;
+    background: transparent;
+    margin-top: 80px;
+}
+.menu-mobile .ant-menu:before {
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 997;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+    filter: blur(2px);
+}
+.menu-mobile .ant-menu-dark.ant-menu-inline .ant-menu-item {
+    position: relative;
+    z-index: 1000;
+    padding-left: 15px !important;
+}
+.menu-mobile .ant-menu-dark .ant-menu-item > span > a {
+    font-weight: bold;
+    padding-left: 0;
+}
+.menu-mobile .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background: #FFD60A !important;
+}
+.bottom-menu-mobile {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    z-index: 1001;
+    width: 100%;
+}
+.bottom-menu-mobile .list-socail li {
+    list-style-type: none;
+}
+.bottom-menu-mobile .list-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.social-mobile {
+    padding: 15px;
+}
+.copy-right {
+    text-align: center;
+    color:#8F8F8F;
+    font-size: 12px;
 }

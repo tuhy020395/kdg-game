@@ -22,6 +22,7 @@ body::-webkit-scrollbar-thumb {
     width: 166px;
     background: #1B1B1C;
     margin: 0 auto;
+    margin-right: 0;
 }
 /* .box-card-grid .ant-tabs-nav .ant-tabs-nav-list {
     width: 100%;
@@ -497,4 +498,119 @@ body::-webkit-scrollbar-thumb {
     .header-item .list-header li .info-item-header .box-logo .box-img-big img {
         width: 46px;
     }
+}
+.box-deposit {
+    text-align: end;
+    padding: 10px 0;
+}
+.box-deposit .button-stake {
+    width: 40px;
+    height: 40px;
+    background: #FFD60A;
+    color: #000;
+    font-size: 18px;
+    padding: 0;
+    border-color: #FFD60A;
+    margin-right: 10px;
+}
+.box-deposit .button-stake:hover {
+    background: #fff;
+    color: #FFD60A;
+}
+.box-deposit .button-harvest {
+    width: 40px;
+    height: 40px;
+    background: #292929;
+    color: #fff;
+    font-size: 18px;
+    padding: 0;
+    border-color: #292929; 
+}
+.box-deposit .button-harvest:hover {
+    background: #fff;
+    color: #292929;
+}
+.modal-deposit .ant-modal-title {
+    font-size: 24px;
+    text-align: center;
+    text-transform: none;
+}
+.modal-deposit .ant-modal-close svg {
+    fill: #FFD60A;
+}
+.box-modal-deposit .title-amount {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.box-modal-deposit .box-input-value {
+    position: relative;
+}
+.box-modal-deposit .box-input-value .ant-input {
+    height: 50px;
+    background: #292929;
+    border: 1px solid #292929;
+    font-size: 18px;
+    color: #FFD60A;
+    border-radius: 2px;
+}
+.box-modal-deposit .box-input-value .ant-input:focus, .box-modal-deposit .box-input-value .ant-input-focused {
+    box-shadow: 0 0 0 2px rgb(140 117 5);
+}
+.box-modal-deposit .box-input-value .button-max {
+    width: 85px;
+    height: 40px;
+    background: #FFD60A;
+    color: #000;
+    font-size: 16px;
+    padding: 0;
+    border-color: #FFD60A;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+.box-modal-deposit .box-input-value .button-max:hover {
+    background: #fff;
+    color: #FFD60A;
+}
+.box-modal-deposit .box-input-value .name-token {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+}
+.modal-deposit .ant-modal-footer {
+    display: none;
+}
+.box-confirm {
+    margin-top: 25px;
+    text-align: center;
+}
+.box-confirm .button-confirm {
+    width: 85px;
+    height: 35px;
+    background: #FFD60A;
+    color: #000;
+    font-size: 14px;
+    padding: 0;
+    border-color: #FFD60A;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.box-confirm .button-confirm:hover {
+    background: #fff;
+    color: #FFD60A;
+}
+.box-confirm .button-cancel {
+    width: 85px;
+    height: 35px;
+    background: #1B1B1C;
+    color: #98999A;
+    font-size: 14px;
+    padding: 0;
+    border-color: #98999A;
+    margin-right: 10px;
+    border-radius: 5px;
 }

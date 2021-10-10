@@ -92,8 +92,7 @@
 @media (max-width: 414px) {
     .titleLaunch-text{
         font-size: 26px;
-    }
-    
+    } 
 }
 .titleLaunch-content{
     font-family: 'Montserrat';
@@ -156,4 +155,12 @@
 }
 .status-text{
     padding-top: 3.5px;
+}
+@media (max-width: 414px) {
+    .titleLaunch {
+        padding: 0 15px;
+    }
+    .titleLaunch-content {
+        font-size: 14px;
+    }
 }

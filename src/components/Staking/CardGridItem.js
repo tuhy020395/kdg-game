@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import DepositBox from './DepositBox';
 import {
     UpOutlined,
     DownOutlined
@@ -90,6 +91,7 @@ const CardGridItem = () => {
                                     Add to Metamask <img src='../images/meta.png' alt="" />
                                 </div>
                             </div>
+                            <DepositBox />
                        </div>
                     )}
                    <div className="box-connect-wl">

@@ -84,3 +84,14 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
+@media (max-width: 768px) {
+    .titleAbout {
+        padding: 0 15px;
+    }
+    .about-subtitle {
+        font-size: 14px;
+    }
+    .colum {
+        margin-left: 0;
+    }
+}

@@ -187,6 +187,7 @@
     left: 0;
     margin-left: 0;
     color: #fff;
+    display: block !important;
 }
 .progress-line .balance-progess {
     position: absolute;
@@ -297,4 +298,97 @@
     .box-dispash-item .item-info .content-info {
         padding: 20px 20px 40px 20px;
     }
+}
+.content-tabs-winner .search-text .ant-input {
+    width: 100%;
+    height: 50px;
+    background: #101011;
+    color: #595959;
+    border: 1px solid #595959;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.content-tabs-winner .search-text .ant-input-group-addon {
+    background: #101011;
+    position: absolute;
+    right: 40px;
+    left: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    left: initial !important;
+}
+.content-tabs-winner .search-text .ant-input-search-button {
+    background: #101011;
+    border: 1px solid #101011;
+}
+.content-tabs-winner .search-text .ant-input-search-button svg {
+    fill: #595959;
+    font-size: 18px;
+}
+.ant-input-search .ant-input:hover + .ant-input-group-addon .ant-input-search-button:not(.ant-btn-primary), .ant-input-search .ant-input:focus + .ant-input-group-addon .ant-input-search-button:not(.ant-btn-primary) {
+    border-left-color: #101011;
+}
+.table-winner {
+    border: 1px solid #595959; 
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.table-winner table {
+    width: 100%;
+    background: #101011;
+    border-radius: 5px;
+}
+.table-winner tr th {
+    padding: 20px 20px 10px 20px;
+    color: #fff;
+}
+.table-winner tr th:nth-child(1){
+    width: 10%;
+    text-align: left;
+}
+.table-winner tr th:nth-child(2){
+    width: 90%;
+    text-align: left;
+}
+.table-winner tr td {
+    padding: 15px 20px;
+    color: #fff;
+    border-bottom: 1px solid #59595959;
+}
+.table-winner tr td:nth-child(1){
+    width: 10%;
+    text-align: left;
+}
+.table-winner tr td:nth-child(2){
+    width: 90%;
+    text-align: left;
+}
+.pani-list {
+    margin-top: 20px;
+    text-align: end;
+}
+.pani-list .ant-pagination-item {
+    background: transparent;
+    border: 0px solid transparent;
+    font-size: 18px;
+}
+.pani-list .ant-pagination-item a {
+    color: #595959;
+}
+.pani-list .ant-pagination-item-active a {
+    color: #FFD60A;
+}
+.pani-list .ant-pagination-item a:hover {
+    color: #FFD60A;
+}
+.pani-list .ant-pagination-prev .ant-pagination-item-link {
+    background: #252729;
+    border: 0px solid transparent;
+    color: #fff;
+}
+.pani-list .ant-pagination-next .ant-pagination-item-link {
+    background: #252729;
+    border: 0px solid transparent;
+    color: #fff;
 }

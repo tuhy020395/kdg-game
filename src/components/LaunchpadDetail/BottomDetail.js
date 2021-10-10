@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Tabs } from 'antd';
+import { Tabs , Input , Pagination} from 'antd';
 import 'antd/dist/antd.css';
 
 const BottomDetail = () => {
@@ -7,7 +7,9 @@ const BottomDetail = () => {
     function callback(key) {
         console.log(key);
     }
-    const contentTabs = (
+    const { Search } = Input;
+    const onSearch = value => console.log(value);
+    const contentTabsPool = (
         <>
             <ul className="list-detail-info-tabs">
                 <li>
@@ -95,15 +97,67 @@ const BottomDetail = () => {
             </ul>
         </>
     )
+    const contentTabsWinner = (
+        <>
+            <div className="content-tabs-winner">
+                <div className="search-text">
+                    <Search placeholder="Search your wallet address" onSearch={onSearch} />
+                </div>
+                <div className="table-winner">
+                    <table>
+                        <tr>
+                            <th>No</th>
+                            <th>Wallet Address</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                0x5A2b5aCb5E33*************44A2F413b7120e
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                0x5A2b5aCb5E33*************44A2F413b7120e
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                0x5A2b5aCb5E33*************44A2F413b7120e
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                4
+                            </td>
+                            <td>
+                                0x5A2b5aCb5E33*************44A2F413b7120e
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div className="pani-list">
+                    <Pagination defaultCurrent={1} total={50} />
+                </div>
+            </div>
+        </>
+    )
     return (
         <>
             <div className="box-tabs-detail">
             <Tabs defaultActiveKey="1" onChange={callback}>
                 <TabPane tab="POOL Detail" key="1">
-                    {contentTabs}
+                    {contentTabsPool}
                 </TabPane>
                 <TabPane tab="winner (127)" key="2">
-                    {contentTabs}
+                    {contentTabsWinner}
                 </TabPane>
             </Tabs>
             </div>
