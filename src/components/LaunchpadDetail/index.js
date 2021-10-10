@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import TopDetail from './TopDetail';
 import MiddleDetail from './MiddleDetail'
+import BottomDetail from './BottomDetail'
 import 'antd/dist/antd.css';
 import './style.css'
 
@@ -11,6 +12,7 @@ const LaunchpadDetail = () => {
                 <div className="container">
                     <TopDetail />
                     <MiddleDetail />
+                    <BottomDetail />
                 </div>
             </div>
         </>

@@ -12,8 +12,8 @@ function LaunchPad() {
   const ComplatedItem = () => {
     if (!isMobile) {
       return (
-        itemsComplated.map((item) => (
-          <div className='comp-item'>
+        itemsComplated.map((item, key) => (
+          <div key={item} className='comp-item'>
             <Row justify="center">
               <Col span={18}>
                 <div className='complete-item'>
@@ -39,18 +39,18 @@ function LaunchPad() {
                   </div>
                   <div className='complete-process'>
                     <p className='process-top'>Progcess
-                      <Progress
-                        strokeColor={{
-                          '0%': '#FAC800',
-                          '100%': '#FAC800',
-                        }}
-                        percent={100} />
-                      <div className='value-process' >
-                        <p className='first-process' >100%</p>
-                        <p className='end-process'>50/100 KDG</p>
+                    <div className="progress-line" style={{width:'92%'}}>
+                      <Progress percent={100} status="active" />
+                      <div>
+                      <span className="balance-progess">2,913,993.57  / 2,914,285 KDG</span>
+                      <span className="balance-full">(100%)</span>
                       </div>
-                    </p>
-
+                      
+                      <div className="vector-arrow">
+                        <img src='../images/vector-arrow.png' alt="" />
+                      </div>
+                    </div>                 
+                    </p>                   
                   </div>
                 </div>
               </Col>
@@ -60,8 +60,8 @@ function LaunchPad() {
       )
     }
     return (
-      itemsComplated.map((item) => (
-        <Row justify="center">
+      itemsComplated.map((item, key) => (
+        <Row key={item} justify="center">
           <div className='itemLP'>
             <Col span={8}>
               <Card style={{ width: 300 }}>
@@ -100,6 +100,9 @@ function LaunchPad() {
                         <p className='first-process-mb' >(100%)</p>
                         <p className='end-process-mb'>50/100 KDG</p>
                       </div>
+                      <div className="vector-arrow-mb">
+                        <img src='../images/vector-arrow.png' alt="" />
+                      </div>
                     </p>
                   </div>
                 </div>
@@ -113,16 +116,18 @@ function LaunchPad() {
 
   const NextItem = () => {
     return (
-      itemsNext.map((item) => (
-        <div className='itemLP'>
+      itemsNext.map((item, key) => (
+        <div key={item} className='itemLP'>
           <Col span={8}>
             <Card
               style={{ width: 300, paddingTop: '10px', paddingLeft: '10px', paddingRight: '10px' }}
               cover={
-                <img
-                  alt="example"
-                  src="../images/img-lp1.png"
-                />
+                <a href="/launchpaddetail">
+                  <img
+                    alt="example"
+                    src="../images/img-lp1.png"
+                  />
+                </a>
               }
             >
               <div className='status'>
@@ -147,7 +152,7 @@ function LaunchPad() {
                   <p className='totalText'>Supported</p>
                   <p className='totalPrice'>BUSD</p>
                 </div>
-                <div style={{ paddingTop: '5px', display:'flex' }}>
+                <div style={{ paddingTop: '5px', display: 'flex' }}>
                   <Button className='btnItem-wl' >Whitelist end in
                     <img src='../images/wl-icon.png' alt='icon' />
                     <p className='countDown'>03 days</p>
@@ -165,15 +170,17 @@ function LaunchPad() {
   const CommingItem = () => {
     return (
       itemsComming.map((item) => (
-        <div className='itemLP'>
+        <div key={item} className='itemLP'>
           <Col span={8}>
             <Card
               style={{ width: 300, paddingTop: '10px', paddingLeft: '10px', paddingRight: '10px' }}
               cover={
-                <img
-                  alt="example"
-                  src="../images/img-lp1.png"
-                />
+                <a href="/launchpaddetail">
+                  <img
+                    alt="example"
+                    src="../images/img-lp1.png"
+                  />
+                </a>
               }
             >
               <div className='status'>

@@ -1,20 +1,19 @@
 import './App.css';
-import Home from './components/home'
-import LaunchpadDetail from './components/LaunchpadDetail'
-import LaunchPad from './components/launchpad'
+import { BrowserRouter as Router} from "react-router-dom";
+import React from 'react' 
+import 'antd/dist/antd.css';
+
 import Headers from './components/common/header';
 import Footers from './components/common/footer';
 
-
-
 function App() {
   return (
-    <div className="App">
-      <Headers />
-      {/* <Home /> */}
-      <LaunchPad />
-      <Footers />
-    </div>
+    <Router>
+      <div className="App">
+        <Headers />
+        <Footers />
+      </div>
+    </Router>
   );
 }
 

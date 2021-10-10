@@ -35,33 +35,39 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 132%;
     /* or 18px */
 
     letter-spacing: 0.025em;
 
     color: #9F9F9F;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 .textNameLP{
     width: 90%;
     text-align: start;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.025em;
-
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     color: #FFFFFF;
 }
 .totalPrice{
     width: 75%;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 132%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     /* or 21px */
 
     text-align: right;
@@ -79,25 +85,30 @@
     line-height: 46px;
     letter-spacing: 0.025em;
     text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 @media (max-width: 414px) {
     .titleLaunch-text{
         font-size: 26px;
-    }
-    
+    } 
 }
 .titleLaunch-content{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 132%;
+    line-height: 102%;
     /* or 21px */
 
     text-align: center;
     letter-spacing: 0.025em;
 
     color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 .btnJoinNow{
     width: 156px;
@@ -112,6 +123,9 @@
     letter-spacing: 0.01em;
 
     color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 .imgLP{
     width: 10%;
@@ -127,6 +141,9 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     font-size: 14px;
     line-height: 17px;
     /* identical to box height */
@@ -138,4 +155,12 @@
 }
 .status-text{
     padding-top: 3.5px;
+}
+@media (max-width: 414px) {
+    .titleLaunch {
+        padding: 0 15px;
+    }
+    .titleLaunch-content {
+        font-size: 14px;
+    }
 }
